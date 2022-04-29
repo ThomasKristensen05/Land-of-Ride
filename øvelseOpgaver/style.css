@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: 3em;
+    box-shadow: 0 1px 10px grey;
+    /* position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    width: 100%; */
+}
+
+nav {
+    height: 100%;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 0 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+h1 {
+    width: 400px;
+}
+
+.help-center {
+    border-left: solid black 1px;
+    padding-left: 20px;
+}
+
+.logo {
+    padding-right: 600px;
+}
+
+.adventures {
+    padding-right: 50px;
+    border-right: 1px solid black;
+    /* max-height: 100%; */
+    align-self: center;
+}
+
+.about-us { 
+    margin-right: 400px;
+}
+
+.left-section img {
+    height: 800px;
+    width: 500px;
+    margin-top: 2em;
+}
+
+.middle-section img {
+    height: 800px;
+    width: 500px;
+    margin-bottom: 3em;
+}
+
+.right-section img {
+    height: 800px;
+    width: 500px;
+    margin-top: 2em;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.row-8 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 700px;
+}
+
+.row-8 img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    height: 570px;
+}
+
+.choose {
+    overflow: hidden;
+    background-color: black;
+    width: 18%;
+    justify-content: center;
+    margin-left: 600px;
+    position: sticky;
+    top: 650px;
+}
+
+.choose a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold lighter;
+    font-size: 1em;
+}
+
+.choose .land {
+    border-right: white 1px solid;
+}
+
+.aboveRow4 {
+    margin: 200px 0 100px 100px;
+}
+
+.aboveRow4 p {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.aboveRow4 h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 img {
+    margin-left: 80px;
+    height: 600px;
+}
+
+.section1 p {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.section2 img {
+    height: 600px;
+    margin-left: 50px;
+}
+
+.section2 p {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.aboveRow8 {
+    margin: 200px 0 100px 100px;
+}
+
+.aboveRow8 p {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.aboveRow8 h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.section-1 p {
+    margin-left: 30px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+.section-2 p {
+    margin-left: 30px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+.section-3 p {
+    margin-left: 30px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+.section-4 p {
+    margin-left: 30px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+.info img {
+    width: 1520px;
+}
+
+
+.highlightText {
+    position: absolute;
+    top: 1em;
+    left: 41.5%;
+}
+
+.info {
+    margin-top: 200px;
+    position: relative;
+}
+.spots {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    position: absolute;
+    bottom: 5em;
+    left: 46%;
+}
+
+.from1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    position: absolute;
+    bottom: 3em;
+    left: 46.5%;
+}
+
+.gear {
+    background-color: bisque;
+    height: 1000px;
+}
+
+.gear p {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    font-weight: bolder;
+}
+
+.gear h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.insta {
+    background-color: black;
+    height: 1600px;
+    position: relative;
+}
+
+.insta p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.insta h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.instagram {
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.instaPics {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.mandPåSne {
+    padding-right: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.surfMand {
+    padding-right: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+.skateboard {
+    padding-right: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.skiMand {
+    height: 400px;
+}
+
+.ventreSection {
+    padding-top: 100px;
+}
+
+.ventreSection li {
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.ventreSection li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    border-top: solid white 1px;
+    margin: 100px 70px 0 70px;
+}
+
+.footer h2 {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer p {
+    padding: 15px 0 0 0;
+}
+
+.footer .skrivEmail {
+    margin-top: 50px;
+    margin-left: 580px;
+    color: black;
+}
+
+.skrivEmail {
+    border: none;
+    background-color: black;
+}
+
+.submit {
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+    color: gray;
+}
